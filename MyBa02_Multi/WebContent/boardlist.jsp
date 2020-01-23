@@ -26,7 +26,7 @@
 		MDBoardDao dao = new MDBoardDao();
 		List<MDBoardVo> list = dao.selectAll();
 	%>
-	<h1>글 목록</h1>
+	<h1>글 목록(주히딘)</h1>
 	<form action="muldel.jsp" method="post" id="muldelform">
 		<table border="1">
 			<col width="30px">
