@@ -8,7 +8,7 @@
 </head>
 <body>
 
-
+	<h1>게시판</h1>
 	<a href="boardlist.jsp">게시판</a>
 
 </body>
