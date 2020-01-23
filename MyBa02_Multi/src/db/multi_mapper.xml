@@ -45,7 +45,6 @@
 	</delete>
 	
 <!-- 
-
 		<foreach	collection="seq"		: 키 값
 					item="seqseq" 			: #{}안에 쓸 이름
 					open="(" 				: 시작할때 
@@ -53,7 +52,6 @@
 					close=")">				: 끝낼때
 			#{seq}
 		</foreach>
-
  -->
 
 </mapper>

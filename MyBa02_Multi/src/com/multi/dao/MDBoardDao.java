@@ -102,7 +102,6 @@ public class MDBoardDao extends SqlMapConfig{
 		map.put("seq", seq);
 		
 		try {
-			
 			session = getSqlSessionFactory().openSession(false);
 			count = session.delete(namespace+"muldel", map);
 			
