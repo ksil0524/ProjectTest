@@ -42,6 +42,15 @@ public class BandaController {
 	//------------------------------------------------------------------------------------------------------------------------------------
 	// < 김성일 파트  시작 >  
 	
+	@RequestMapping("/si.do")
+	public String sitest(Model model) {
+		
+		model.addAttribute("test",biz.sitest());
+		
+		return "home";
+	}
+	
+	
 	// < 김성일 파트  끝 > 
 
 	// < 하나경 파트  시작 >  
