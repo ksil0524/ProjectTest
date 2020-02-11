@@ -3,5 +3,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class NK_dao {
-
+	public String nkhello() {
+		return "hello";
+	}
 }

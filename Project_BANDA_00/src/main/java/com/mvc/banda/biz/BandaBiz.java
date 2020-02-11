@@ -1,4 +1,4 @@
-package com.mvc.banda.biz;
+﻿package com.mvc.banda.biz;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -57,16 +57,28 @@ public class BandaBiz {
 	
 	
 	//------------------------------------------------------------------------------------------------------------------------------------
+
 	// < 주희진 파트  시작 >  
+
+
 	
 	public String testMethod() {
 		
 		return hj_dao.testMethod();
 	}
 	
+
 	// < 주희진 파트  끝 > 
 	//------------------------------------------------------------------------------------------------------------------------------------
 	
+	// < 하나경 파트  시작 > 
+	public String nkhello() {
+		return nk_dao.nkhello();
+	}
+	
+	
+	// < 하나경 파트  끝 > 
+
 	//------------------------------------------------------------------------------------------------------------------------------------
 	// < 김재익 파트  시작 >  
 	
