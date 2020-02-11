@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<a href="si.do">home</a>
 	<br>
 	<a href="index.do">index</a>	
 	<br>
