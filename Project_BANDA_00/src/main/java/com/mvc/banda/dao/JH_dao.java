@@ -5,4 +5,8 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class JH_dao {
 
+	public String searchlist() {
+		
+		return "home";
+	}
 }
