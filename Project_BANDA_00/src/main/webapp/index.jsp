@@ -33,5 +33,7 @@
 	<a href="mypageFollw.do">mypageFollw</a>
 	<br>
 	<a href="mypagePets.do">mypagePets</a>
+	<br>
+	<a href="nk.do">home</a>
 </body>
 </html>
