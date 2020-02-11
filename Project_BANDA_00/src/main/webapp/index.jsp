@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -34,7 +34,13 @@
 	<br>
 	<a href="mypagePets.do">mypagePets</a>
 	
+
 	<br/>
 	<a href="hj.do">hometest</a>
+
+	<br>
+	<a href="ji.do">home.do</a>
+	
+
 </body>
 </html>
