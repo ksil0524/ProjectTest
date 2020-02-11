@@ -2,6 +2,8 @@ package com.mvc.banda;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.mvc.banda.biz.BandaBiz;
 
@@ -12,9 +14,17 @@ public class BandaController {
 	private BandaBiz biz;
 	
 	//------------------------------------------------------------------------------------------------------------------------------------
-	// < OOO 파트  시작 >  
+	// < 최주예 �뙆�듃  �떆�옉 >  
 	
-	// < OOO 파트  끝 > 
+		@RequestMapping("/jy.do")
+		public String feed_insert(Model model) {
+			
+			model.addAttribute("juye", biz.feed_insert());
+			
+			return "home";
+		}
+	
+	// < 최주예 �뙆�듃  �걹 > 
 	//------------------------------------------------------------------------------------------------------------------------------------
 	
 }

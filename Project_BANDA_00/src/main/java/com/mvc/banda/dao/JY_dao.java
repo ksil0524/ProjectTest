@@ -4,4 +4,9 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class JY_dao {
 
+	public String feed_insert() {
+		
+		return "go_home";
+	}
+	
 }
