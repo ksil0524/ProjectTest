@@ -39,6 +39,21 @@ public class BandaController {
 		}
 	
 	// < 최주예 �뙆�듃  �걹 > 
+
+	// < 유진 파트  시작 >  
+	
+	@RequestMapping("/uj.do")
+	public String eugene(Model model) {
+		
+		model.addAttribute("testresult", biz.eugene());
+		
+		
+		return "home";
+	}
+	
+	
+	
+	// < 유진 파트  끝 > 
 	//------------------------------------------------------------------------------------------------------------------------------------
 	// < 김성일 파트  시작 >  
 	

@@ -35,6 +35,7 @@
 	<a href="mypagePets.do">mypagePets</a>
 
 
+
 	<br/>
 	<a href="hj.do">hometest</a>
 
@@ -49,5 +50,10 @@
 
 	<br>
 	<a href="jy.do">test</a>
+
+	<br>
+	<a href="uj.do">test</a>
+	
+	
 </body>
 </html>
